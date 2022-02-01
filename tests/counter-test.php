@@ -1,5 +1,6 @@
 <?php
 
+$validFor =
 $token = md5(intdiv(time(), 10));
 for ($i = 0; $i < 30; $i++) {
     $seed = intdiv(time(), 10);
